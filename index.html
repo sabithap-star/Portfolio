@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Development Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #1b1b32;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 { margin: 0 0 10px; font-size: 40px; }
+    header p { margin: 0; font-size: 18px; }
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 10px;
+    }
+    h2 { color: #1b1b32; }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fafafa;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #1b1b32;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Web Development Portfolio</h1>
+    <p>HTML & CSS Learner | Aspiring Web Developer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! I am learning web development and building my skills in HTML and CSS.
+      I enjoy creating webpages and practicing through coding projects.
+      My goal is to become a professional web developer.
+    </p>
+  </section>
+
+  <section>
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Registration Form</h3>
+        <p>A responsive registration form created with HTML and CSS.</p>
+      </div>
+      <div class="project">
+        <h3>Confidential Email</h3>
+        <p>A CSS project using blur effects, transforms, and styling.</p>
+      </div>
+      <div class="project">
+        <h3>Rothko Painting</h3>
+        <p>A CSS art project created while practicing the CSS box model.</p>
+      </div>
+      <div class="project">
+        <h3>Feature Selection</h3>
+        <p>A checkbox interface built with HTML and CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <p>HTML • CSS • Responsive Web Design • CSS Box Model • CSS Transforms • CSS Filters</p>
+  </section>
+
+  <section>
+    <h2>Learning Goal</h2>
+    <p>I am continuing to learn web development and plan to build more projects as I improve my skills.</p>
+  </section>
+
+  <footer>
+    <p>My Web Development Portfolio</p>
+  </footer>
+</body>
+</html>
